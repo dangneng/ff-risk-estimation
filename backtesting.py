@@ -15,3 +15,4 @@ def backtest(w : np.ndarray, Sigma : np.ndarray):
     # realized_risk = TODO
 
     return
+
