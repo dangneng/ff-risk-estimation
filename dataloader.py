@@ -8,5 +8,5 @@ class NpDataloader:
         self.returns = self.prices.pct_change().dropna()
 
 def load_data(end_date, T) -> np.ndarray: 
-    window = self.prices.loc[:end_date].tail(T);
+    window = self.returns.loc[:end_date].tail(T);
     return window.values
